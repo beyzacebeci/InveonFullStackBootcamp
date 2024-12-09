@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\beforedip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\beforedip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\afterocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\afterocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\aftersrp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\aftersrp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\beforeisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\beforeisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\beforeocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\beforeocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\beforesrp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\beforesrp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\beforelsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\beforelsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\afterlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\afterlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\afterisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\afterisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\afterdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\afterdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-1\\solidprinciples\\solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D9EE20-7F50-4D24-88EB-ADE87B2422D0}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AfterDIP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterDIP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\AfterDIP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterDIP.cs",
+              "RelativeToolTip": "SolidPrinciples\\AfterDIP.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:38:44.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeforeDIP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeDIP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\BeforeDIP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeDIP.cs",
+              "RelativeToolTip": "SolidPrinciples\\BeforeDIP.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:34:53.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeforeISP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeISP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\BeforeISP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeISP.cs",
+              "RelativeToolTip": "SolidPrinciples\\BeforeISP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:28:04.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AfterISP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterISP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\AfterISP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterISP.cs",
+              "RelativeToolTip": "SolidPrinciples\\AfterISP.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:27:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AfterLSP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterLSP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\AfterLSP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterLSP.cs",
+              "RelativeToolTip": "SolidPrinciples\\AfterLSP.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:24:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BeforeLSP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeLSP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\BeforeLSP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeLSP.cs",
+              "RelativeToolTip": "SolidPrinciples\\BeforeLSP.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:24:15.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AfterOCP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterOCP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\AfterOCP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterOCP.cs",
+              "RelativeToolTip": "SolidPrinciples\\AfterOCP.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:20:19.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BeforeOCP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeOCP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\BeforeOCP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeOCP.cs",
+              "RelativeToolTip": "SolidPrinciples\\BeforeOCP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:20:05.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AfterSRP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterSRP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\AfterSRP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\AfterSRP.cs",
+              "RelativeToolTip": "SolidPrinciples\\AfterSRP.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:15:57.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BeforeSRP.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeSRP.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\BeforeSRP.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\BeforeSRP.cs",
+              "RelativeToolTip": "SolidPrinciples\\BeforeSRP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:15:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\Program.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\Program.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-1\\SolidPrinciples\\SolidPrinciples\\Program.cs",
+              "RelativeToolTip": "SolidPrinciples\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:14:21.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

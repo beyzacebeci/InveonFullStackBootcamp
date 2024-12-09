@@ -1,0 +1,5 @@
+C:\MyWorkSpace\InveonFullstackBootcamp\part-1\SolidPrinciples\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\InveonFullstackBootcamp\part-1\SolidPrinciples\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.AssemblyInfoInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\part-1\SolidPrinciples\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.AssemblyInfo.cs
+C:\MyWorkSpace\InveonFullstackBootcamp\part-1\SolidPrinciples\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\part-1\SolidPrinciples\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.sourcelink.json

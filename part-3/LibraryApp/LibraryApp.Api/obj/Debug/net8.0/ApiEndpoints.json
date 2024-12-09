@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "api/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "Create",
+    "RelativePath": "api/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBookDto",
+        "Type": "LibraryApp.Api.DTOs.BookCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "GetById",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "Update",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookDto",
+        "Type": "LibraryApp.Api.DTOs.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryApp.Api.Controllers.BooksController",
+    "Method": "GetWithPagination",
+    "RelativePath": "api/Books/WithPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

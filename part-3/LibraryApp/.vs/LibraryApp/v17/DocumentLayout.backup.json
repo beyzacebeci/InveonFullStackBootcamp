@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\part-3\\libraryapp\\libraryapp.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0629BC24-7640-4787-ADCD-70F619181766}|LibraryApp.Api\\LibraryApp.Api.csproj|solutionrelative:libraryapp.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\appsettings.json",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\appsettings.json*",
+              "RelativeToolTip": "LibraryApp.Api\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T14:11:31.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\Program.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Program.cs",
+              "RelativeToolTip": "LibraryApp.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:42:43.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\DTOs\\BookDto.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\DTOs\\BookDto.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\DTOs\\BookDto.cs",
+              "RelativeToolTip": "LibraryApp.Api\\DTOs\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:43:46.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Controllers\\BooksController.cs*",
+              "RelativeToolTip": "LibraryApp.Api\\Controllers\\BooksController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:31:00.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\Services\\BookService.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryApp.Api\\Services\\BookService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:25:04.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryApp.Api\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:41:03.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Api\\Models\\Book.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\part-3\\LibraryApp\\LibraryApp.Api\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryApp.Api\\Models\\Book.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:12:11.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.AssemblyInfoInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.AssemblyInfo.cs
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.sourcelink.json
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\bin\Debug\net9.0\SyncVsAsync.exe
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\bin\Debug\net9.0\SyncVsAsync.deps.json
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\bin\Debug\net9.0\SyncVsAsync.runtimeconfig.json
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\bin\Debug\net9.0\SyncVsAsync.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\bin\Debug\net9.0\SyncVsAsync.pdb
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\refint\SyncVsAsync.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.pdb
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\SyncVsAsync.genruntimeconfig.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\part-2\SyncVsAsync\SyncVsAsync\obj\Debug\net9.0\ref\SyncVsAsync.dll
