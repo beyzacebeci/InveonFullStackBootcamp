@@ -1,0 +1,18 @@
+﻿@model Book
+
+
+<div class="col-sm-12 col-md-4 col-lg-3 my-3">
+    <div class="card h-100">
+        <img class="card-img-top" src="/images/book.jpg" alt="Card image cap">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">@Model.Title</h5>
+            <h6 class="card-title">@Model.Author</h6>
+            <h6 class="card-title">@Model.PublicationYear</h6>
+            <h6 class="card-title">@Model.ISBN</h6>
+
+            <a asp-action="Get" asp-route-id="@Model.Id" class="btn btn-primary mt-auto">
+                <i class="fa-solid fa-arrow-right"></i> Go Detail
+            </a>
+        </div>
+    </div>
+</div>

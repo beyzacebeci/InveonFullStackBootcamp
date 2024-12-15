@@ -1,0 +1,11 @@
+﻿@model IQueryable<Book>
+
+
+<div class="row my-3">
+@foreach(Book book in Model)
+  {
+	 
+	<partial name="_BookCard" model="@book"/>
+  }
+
+</div>

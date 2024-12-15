@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\books\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\books\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\views\\books\\_bookcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\views\\books\\_bookcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\components\\booksummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\components\\booksummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\librarymanagementapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6E3B83-421F-402E-A547-E737BDC6FF82}|LibraryManagementApp\\LibraryManagementApp.csproj|solutionrelative:librarymanagementapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|solutionrelative:services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|solutionrelative:services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|solutionrelative:services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|c:\\myworkspace\\inveonfullstackbootcamp\\librarymanagementapp\\services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B72C7B-201E-4AA9-921B-8E1BE67896AE}|Services\\Services.csproj|solutionrelative:services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T16:55:42.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T16:55:37.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T15:32:57.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:12:48.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T15:26:04.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T15:24:20.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:06:44.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T13:32:30.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:15:01.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:08:11.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:10:50.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:29:59.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T15:33:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:29:00.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Program.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Program.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:00:31.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Get.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\Get.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Books\\Get.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\Get.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Books\\Get.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T13:46:17.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_BookCard.cshtml",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\_BookCard.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Views\\Books\\_BookCard.cshtml",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Views\\Books\\_BookCard.cshtml",
+              "RelativeToolTip": "LibraryManagementApp\\Views\\Books\\_BookCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T13:46:09.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:36:34.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookSummaryViewComponent.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Components\\BookSummaryViewComponent.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Components\\BookSummaryViewComponent.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Components\\BookSummaryViewComponent.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Components\\BookSummaryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:27:12.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementApp\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\LibraryManagementApp\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryManagementApp\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwBcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:06:14.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceManager.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\ServiceManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:58:27.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Services\\Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:57:24.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\BookManager.cs",
+              "RelativeDocumentMoniker": "Services\\BookManager.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\BookManager.cs",
+              "RelativeToolTip": "Services\\BookManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA8wBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:51:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\Contracts\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IBookService.cs",
+              "ToolTip": "C:\\MyWorkSpace\\InveonFullstackBootcamp\\LibraryManagementApp\\Services\\Contracts\\IBookService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:48:05.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

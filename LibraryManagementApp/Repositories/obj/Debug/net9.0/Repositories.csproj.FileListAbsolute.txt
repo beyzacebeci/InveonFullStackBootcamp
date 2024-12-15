@@ -1,0 +1,16 @@
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\bin\Debug\net9.0\Repositories.deps.json
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\bin\Debug\net9.0\Repositories.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\bin\Debug\net9.0\Repositories.pdb
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfoInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfo.cs
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.sourcelink.json
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\refint\Repositories.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.pdb
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\ref\Repositories.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Repositories.csproj.AssemblyReference.cache
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\bin\Debug\net9.0\Entities.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\bin\Debug\net9.0\Entities.pdb
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\Repositories\obj\Debug\net9.0\Reposito.787EC4B2.Up2Date
