@@ -5,6 +5,8 @@ using Repositories.Contracts;
 using System.Net;
 using Services;
 using Services.Contracts;
+using Microsoft.AspNetCore.Identity;
+using LibraryManagementApp.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,12 +21,24 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
-
 builder.Services.AddScoped<IServiceManager, ServiceManager>();
 builder.Services.AddScoped<IBookService, BookManager>();
+builder.Services.AddScoped<IAuthService, AuthManager>();
+builder.Services.AddScoped<IRoleService, RoleManager>();
 
 
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
+builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+    options.User.RequireUniqueEmail = true;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequiredLength = 6;
+
+}).AddEntityFrameworkStores<AppDbContext>();
 
 
 var app = builder.Build();
@@ -37,9 +51,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapStaticAssets();
@@ -54,5 +68,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.ConfigureDefaultAdminUser();
 
 app.Run();

@@ -13,12 +13,14 @@ namespace Repositories
         public BookRepository(AppDbContext context) : base(context)
         {
         }
-
+        public void CreateOneBook(Book book) => Create(book);
         public IQueryable<Book> GetAllBooks(bool trackChanges) => FindAll(trackChanges);
 
         public Book? GetOneBook(int id, bool trackChanges)
         {
             return FindByCondition(b => b.Id.Equals(id), trackChanges);
         }
+        public void UpdateOneBook(Book entity) => Update(entity);
+        public void DeleteOneBook(Book book) => Remove(book);
     }
 }

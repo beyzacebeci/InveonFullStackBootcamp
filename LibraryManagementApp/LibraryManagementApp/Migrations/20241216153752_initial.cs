@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace LibraryManagementApp.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +17,7 @@ namespace LibraryManagementApp.Migrations
                 name: "AspNetRoles",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     ConcurrencyStamp = table.Column<string>(type: "nvarchar(max)", nullable: true)
@@ -29,9 +31,7 @@ namespace LibraryManagementApp.Migrations
                 name: "AspNetUsers",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    City = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserType = table.Column<byte>(type: "tinyint", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -61,12 +61,12 @@ namespace LibraryManagementApp.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PublicationYear = table.Column<int>(type: "int", nullable: false),
-                    ISBN = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Genre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Publisher = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ISBN = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Genre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Publisher = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PageCount = table.Column<int>(type: "int", nullable: false),
-                    Language = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Summary = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Language = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Summary = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AvailableCopies = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -80,7 +80,7 @@ namespace LibraryManagementApp.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    RoleId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    RoleId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ClaimType = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ClaimValue = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -101,7 +101,7 @@ namespace LibraryManagementApp.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ClaimType = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ClaimValue = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -123,7 +123,7 @@ namespace LibraryManagementApp.Migrations
                     LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ProviderKey = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ProviderDisplayName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -140,8 +140,8 @@ namespace LibraryManagementApp.Migrations
                 name: "AspNetUserRoles",
                 columns: table => new
                 {
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RoleId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    RoleId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -164,7 +164,7 @@ namespace LibraryManagementApp.Migrations
                 name: "AspNetUserTokens",
                 columns: table => new
                 {
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Value = table.Column<string>(type: "nvarchar(max)", nullable: true)
@@ -178,6 +178,32 @@ namespace LibraryManagementApp.Migrations
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "1", null, "Admin", "ADMIN" },
+                    { "2", null, "User", "USER" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Books",
+                columns: new[] { "Id", "Author", "AvailableCopies", "Genre", "ISBN", "Language", "PageCount", "PublicationYear", "Publisher", "Summary", "Title" },
+                values: new object[,]
+                {
+                    { 1, "Cengiz Aytmatov", 5, "Roman", "9789750808132", "Türkçe", 160, 1970, "Can Yayınları", "Issık-Göl çevresinde geçen bir çocuğun hikayesi.", "Beyaz Gemi" },
+                    { 2, "Jack London", 3, "Macera", "9786053606331", "Türkçe", 432, 1904, "İş Bankası Kültür Yayınları", "Kaptan Larsen ve denizcilik üzerine etkileyici bir roman.", "Deniz Kurdu" },
+                    { 3, "Oğuz Atay", 7, "Roman", "9789754700111", "Türkçe", 724, 1972, "İletişim Yayınları", "Türk edebiyatında bir başyapıt.", "Tutunamayanlar" },
+                    { 4, "Lev Tolstoy", 4, "Tarih", "9789754587095", "Türkçe", 1600, 1869, "Türkiye İş Bankası Yayınları", "Napolyon döneminde Rusya ve insanlık üzerine bir roman.", "Savaş ve Barış" },
+                    { 5, "George Orwell", 6, "Distopya", "9789750718530", "Türkçe", 352, 1949, "Can Yayınları", "Baskıcı bir rejim üzerine karanlık bir roman.", "1984" },
+                    { 6, "Antoine de Saint-Exupéry", 10, "Çocuk", "9786053606478", "Türkçe", 96, 1943, "Can Çocuk Yayınları", "Bir çocuğun evreni keşfetme hikayesi.", "Küçük Prens" },
+                    { 7, "Miguel de Cervantes", 2, "Roman", "9789754587404", "Türkçe", 1600, 1605, "Türkiye İş Bankası Yayınları", "Rüzgar değirmenleriyle savaşan bir şövalyenin hikayesi.", "Don Quijote" },
+                    { 8, "Paulo Coelho", 8, "Felsefi Roman", "9789750718482", "Türkçe", 184, 1988, "Can Yayınları", "Bir çobanın hazinesi için çıktığı yolculuk.", "Simyacı" },
+                    { 9, "George Orwell", 9, "Allegori", "9789750718895", "Türkçe", 152, 1945, "Can Yayınları", "Bir çiftlikteki hayvanların insanlaşmasını anlatan alegori.", "Hayvan Çiftliği" },
+                    { 10, "Lev Tolstoy", 4, "Roman", "9789754587442", "Türkçe", 864, 1877, "Türkiye İş Bankası Yayınları", "Aşk ve insan doğası üzerine bir başyapıt.", "Anna Karenina" }
                 });
 
             migrationBuilder.CreateIndex(

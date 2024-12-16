@@ -23,6 +23,10 @@ namespace Repositories
                 ? _context.Set<T>()
                 : _context.Set<T>().AsNoTracking();
         }
+        public void Create(T entity)
+        {
+            _context.Set<T>().Add(entity);
+        }
 
         public T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
         {
@@ -30,6 +34,15 @@ namespace Repositories
                 ? _context.Set<T>().Where(expression).SingleOrDefault()
                 : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault();
 
+        }
+        public void Remove(T entity)
+        {
+            _context.Set<T>().Remove(entity);
+        }
+
+        public void Update(T entity)
+        {
+            _context.Set<T>().Update(entity);
         }
     }
 }

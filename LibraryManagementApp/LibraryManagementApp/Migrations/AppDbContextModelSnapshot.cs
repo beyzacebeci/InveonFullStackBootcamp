@@ -22,11 +22,197 @@ namespace LibraryManagementApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Entities.Models.AppRole", b =>
+            modelBuilder.Entity("Entities.Models.Book", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("AvailableCopies")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Genre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ISBN")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Language")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PageCount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PublicationYear")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Publisher")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Summary")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "Cengiz Aytmatov",
+                            AvailableCopies = 5,
+                            Genre = "Roman",
+                            ISBN = "9789750808132",
+                            Language = "Türkçe",
+                            PageCount = 160,
+                            PublicationYear = 1970,
+                            Publisher = "Can Yayınları",
+                            Summary = "Issık-Göl çevresinde geçen bir çocuğun hikayesi.",
+                            Title = "Beyaz Gemi"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Author = "Jack London",
+                            AvailableCopies = 3,
+                            Genre = "Macera",
+                            ISBN = "9786053606331",
+                            Language = "Türkçe",
+                            PageCount = 432,
+                            PublicationYear = 1904,
+                            Publisher = "İş Bankası Kültür Yayınları",
+                            Summary = "Kaptan Larsen ve denizcilik üzerine etkileyici bir roman.",
+                            Title = "Deniz Kurdu"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Author = "Oğuz Atay",
+                            AvailableCopies = 7,
+                            Genre = "Roman",
+                            ISBN = "9789754700111",
+                            Language = "Türkçe",
+                            PageCount = 724,
+                            PublicationYear = 1972,
+                            Publisher = "İletişim Yayınları",
+                            Summary = "Türk edebiyatında bir başyapıt.",
+                            Title = "Tutunamayanlar"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Author = "Lev Tolstoy",
+                            AvailableCopies = 4,
+                            Genre = "Tarih",
+                            ISBN = "9789754587095",
+                            Language = "Türkçe",
+                            PageCount = 1600,
+                            PublicationYear = 1869,
+                            Publisher = "Türkiye İş Bankası Yayınları",
+                            Summary = "Napolyon döneminde Rusya ve insanlık üzerine bir roman.",
+                            Title = "Savaş ve Barış"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Author = "George Orwell",
+                            AvailableCopies = 6,
+                            Genre = "Distopya",
+                            ISBN = "9789750718530",
+                            Language = "Türkçe",
+                            PageCount = 352,
+                            PublicationYear = 1949,
+                            Publisher = "Can Yayınları",
+                            Summary = "Baskıcı bir rejim üzerine karanlık bir roman.",
+                            Title = "1984"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Author = "Antoine de Saint-Exupéry",
+                            AvailableCopies = 10,
+                            Genre = "Çocuk",
+                            ISBN = "9786053606478",
+                            Language = "Türkçe",
+                            PageCount = 96,
+                            PublicationYear = 1943,
+                            Publisher = "Can Çocuk Yayınları",
+                            Summary = "Bir çocuğun evreni keşfetme hikayesi.",
+                            Title = "Küçük Prens"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Author = "Miguel de Cervantes",
+                            AvailableCopies = 2,
+                            Genre = "Roman",
+                            ISBN = "9789754587404",
+                            Language = "Türkçe",
+                            PageCount = 1600,
+                            PublicationYear = 1605,
+                            Publisher = "Türkiye İş Bankası Yayınları",
+                            Summary = "Rüzgar değirmenleriyle savaşan bir şövalyenin hikayesi.",
+                            Title = "Don Quijote"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Author = "Paulo Coelho",
+                            AvailableCopies = 8,
+                            Genre = "Felsefi Roman",
+                            ISBN = "9789750718482",
+                            Language = "Türkçe",
+                            PageCount = 184,
+                            PublicationYear = 1988,
+                            Publisher = "Can Yayınları",
+                            Summary = "Bir çobanın hazinesi için çıktığı yolculuk.",
+                            Title = "Simyacı"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Author = "George Orwell",
+                            AvailableCopies = 9,
+                            Genre = "Allegori",
+                            ISBN = "9789750718895",
+                            Language = "Türkçe",
+                            PageCount = 152,
+                            PublicationYear = 1945,
+                            Publisher = "Can Yayınları",
+                            Summary = "Bir çiftlikteki hayvanların insanlaşmasını anlatan alegori.",
+                            Title = "Hayvan Çiftliği"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Author = "Lev Tolstoy",
+                            AvailableCopies = 4,
+                            Genre = "Roman",
+                            ISBN = "9789754587442",
+                            Language = "Türkçe",
+                            PageCount = 864,
+                            PublicationYear = 1877,
+                            Publisher = "Türkiye İş Bankası Yayınları",
+                            Summary = "Aşk ve insan doğası üzerine bir başyapıt.",
+                            Title = "Anna Karenina"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -48,19 +234,54 @@ namespace LibraryManagementApp.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.AppUser", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
-
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -106,9 +327,6 @@ namespace LibraryManagementApp.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<byte>("UserType")
-                        .HasColumnType("tinyint");
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -122,57 +340,7 @@ namespace LibraryManagementApp.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Entities.Models.Book", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("AvailableCopies")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Genre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ISBN")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Language")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PageCount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PublicationYear")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Publisher")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Summary")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Books");
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -186,32 +354,9 @@ namespace LibraryManagementApp.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("RoleId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RoleId");
-
-                    b.ToTable("AspNetRoleClaims", (string)null);
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ClaimType")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ClaimValue")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
@@ -220,7 +365,7 @@ namespace LibraryManagementApp.Migrations
                     b.ToTable("AspNetUserClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
                         .HasColumnType("nvarchar(450)");
@@ -231,8 +376,9 @@ namespace LibraryManagementApp.Migrations
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -241,13 +387,13 @@ namespace LibraryManagementApp.Migrations
                     b.ToTable("AspNetUserLogins", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<Guid>("RoleId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -256,10 +402,10 @@ namespace LibraryManagementApp.Migrations
                     b.ToTable("AspNetUserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
                         .HasColumnType("nvarchar(450)");
@@ -275,51 +421,51 @@ namespace LibraryManagementApp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
-                    b.HasOne("Entities.Models.AppRole", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Entities.Models.AppUser", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Entities.Models.AppUser", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.HasOne("Entities.Models.AppRole", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Entities.Models.AppUser", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Entities.Models.AppUser", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

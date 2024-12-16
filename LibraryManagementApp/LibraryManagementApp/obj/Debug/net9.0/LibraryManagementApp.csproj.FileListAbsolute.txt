@@ -264,3 +264,5 @@ C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp
 C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp\obj\Debug\net9.0\compressed\g2s4qpkwnp-ee8qm4lry9.gz
 C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp\obj\Debug\net9.0\compressed\nar5p5hk8o-ee8qm4lry9.gz
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp\bin\Debug\net9.0\AutoMapper.dll
+C:\MyWorkSpace\InveonFullstackBootcamp\LibraryManagementApp\LibraryManagementApp\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
